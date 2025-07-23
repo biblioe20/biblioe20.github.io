@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Biblioteca E20" />
 <meta name="generator" content="VisualNEO Web (19.9.16)" />
-<meta name="date" content="2025-07-22 23:00" />
+<meta name="date" content="2025-07-22 23:50" />
 <meta name="copyright" content="Copyright 2025 IoSoft Producciones" />
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -29,11 +29,10 @@
 <button id="btn2" type="button"  class="btn btn-default [NAB.btn2_effect]" ng-style="NAB.btn2_style" ng-hide="NAB.btn2_hidden" ng-disabled="NAB.btn2_disabled" ng-click="btn2_click()"><span class="glyphicon glyphicon-question-sign"></span><br/></button>
 <button id="btn3" type="button"  class="btn btn-success [NAB.btn3_effect]" ng-style="NAB.btn3_style" ng-hide="NAB.btn3_hidden" ng-disabled="NAB.btn3_disabled" ng-click="btn3_click()"><span class="glyphicon glyphicon-envelope"></span><br/></button>
 </div>
-<div id="Ficha" class="[NAB.Ficha_effect]" ng-style="NAB.Ficha_style" ng-hide="NAB.Ficha_hidden" ng-disabled="NAB.Ficha_disabled"><span ng-repeat="object in biblos | filter:searchText | orderBy: 'encabezado'">
-  <div class="panel-primary" style="margin-bottom:20px;">
-        <div class="panel-heading"><strong>Clase:</strong>&nbsp;&nbsp;[object.Clase]</div>
-        <div class="panel-body" style="background:#f3f3f3;">
-             <div>
+<div id="Ficha" class="[NAB.Ficha_effect]" ng-style="NAB.Ficha_style" ng-hide="NAB.Ficha_hidden" ng-disabled="NAB.Ficha_disabled"><span ng-repeat="object in biblos | filter:searchText | orderBy: 'Clase'">
+<div class="panel-body" style="background:#f3f3f3;">
+<div><br>
+<div align="right"><strong>Clase:</strong>&nbsp;&nbsp;[object.Clase]</div>
 <font size="5">
 &nbsp;&nbsp;&nbsp;<strong>[object.Titulo]</strong></font><br>
 <font size="4">
@@ -45,9 +44,8 @@
 [object.Materia1]<br>
 [object.Materia2]<br>
 [object.Materia3]</p><br>
-</font></div>
-        </div>
-  </div></span>
+</div></div><br>
+</span>
 </div>
 <div id="buscador" class="[NAB.buscador_effect]" ng-style="NAB.buscador_style" ng-hide="NAB.buscador_hidden" ng-disabled="NAB.buscador_disabled"><div align="center"><br><input class="css-input" placeholder="Buscar..." type="text" ng-model="searchText">
 <br></div>
