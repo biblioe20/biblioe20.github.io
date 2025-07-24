@@ -38,7 +38,7 @@ $App.NAB.PageID = "Inicio";
 $scope.btn2_click = function() {$scope.GotoPage( "Info" );};
 $scope.btn3_click = function() {window.open("https://forms.gle/QUNEbNi8yqjTMbNx6", "_blank");};
 $scope.btnIMP_click = function() {printDiv1('Ficha');};
-$scope.PushButton1_click = function() {window.open("https://forms.gle/2M7XxhtmuzjJ6iCW6", "_blank");};
+$scope.btnREG_click = function() {window.open("https://forms.gle/2M7XxhtmuzjJ6iCW6", "_blank");};
 });
 NeoApp.controller("Info_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
