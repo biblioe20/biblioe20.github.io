@@ -3,15 +3,15 @@ body {height:1500px;width:100%}
 .app-viewport {position:absolute;top:0;bottom:0;width:100%}
 html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;top:0px;bottom:0px;left:0px;right:0px;margin:auto}p,h1,h2,h3,h4,h5,h6{overflow:hidden}a:focus,.btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn.active.focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:0}.nav,.pagination,.carousel,.panel-title a{cursor:pointer}.modal{overflow:auto}.modal-dialog{margin-top:0;margin-bottom:0;padding-top:10px}.modal-content{overflow:hidden}.modal-backdrop{opacity:.5}.pagination{margin:0}.input-group-btn{vertical-align:top}.input-group-btn>.btn{height:100%}.input-group>.form-control{height:100%}.input-group{padding:0}.neocheckbox [type="checkbox"]:not(:checked),.neocheckbox [type="checkbox"]:checked{position:absolute;left:-9999px}.neocheckbox [type="checkbox"]:not(:checked) + label,.neocheckbox [type="checkbox"]:checked + label{position:relative;padding-left:1.95em;cursor:pointer}.neocheckbox [type="checkbox"]:not(:checked) + label:before,.neocheckbox [type="checkbox"]:checked + label:before{content:'';position:absolute;left:0;top:0;width:1.25em;height:1.25em;border:0.15em solid #aaa;background:#fff;border-radius:4px}.neocheckbox [type="checkbox"]:not(:checked) + label:after,.neocheckbox [type="checkbox"]:checked + label:after{content:"\2713\0020";position:absolute;top:.2em;left:.2em;font-size:1.1em;line-height:0.8;color:#444444;transition:all .2s;font-family:'Lucida Sans Unicode','Arial Unicode MS',Arial}.neocheckbox [type="checkbox"]:not(:checked) + label:after{opacity:0;transform:scale(0)}.neocheckbox [type="checkbox"]:checked + label:after{opacity:1;transform:scale(1)}.neocheckbox [type="checkbox"]:disabled:not(:checked) + label:before,.neocheckbox [type="checkbox"]:disabled:checked + label:before{box-shadow:none;border-color:#bbb;background-color:#ddd}.neocheckbox [type="checkbox"]:disabled:checked + label:after{color:#999}.neocheckbox [type="checkbox"]:disabled + label{color:#aaa}.neocheckbox label:hover:before{border:0.15em solid #888!important}.neoradio [type="radio"]:not(:checked),.neoradio [type="radio"]:checked{position:absolute;left:-9999px}.neoradio [type="radio"]:not(:checked) + label,.neoradio [type="radio"]:checked + label{position:relative;padding-left:1.95em;cursor:pointer}.neoradio [type="radio"]:not(:checked) + label:before,.neoradio [type="radio"]:checked + label:before{content:'';position:absolute;left:0;top:0;width:1.25em;height:1.25em;border:0.15em solid #aaa;background:#fff;border-radius:100px}.neoradio [type="radio"]:not(:checked) + label:after,.neoradio [type="radio"]:checked + label:after{content:"\2713\0020";position:absolute;top:.2em;left:.2em;font-size:1.1em;line-height:0.8;color:#444444;transition:all .2s;font-family:'Lucida Sans Unicode','Arial Unicode MS',Arial}.neoradio [type="radio"]:not(:checked) + label:after{opacity:0;transform:scale(0)}.neoradio [type="radio"]:checked + label:after{opacity:1;transform:scale(1)}.neoradio [type="radio"]:disabled:not(:checked) + label:before,.neoradio [type="radio"]:disabled:checked + label:before{box-shadow:none;border-color:#bbb;background-color:#ddd}.neoradio [type="radio"]:disabled:checked + label:after{color:#999}.neoradio [type="radio"]:disabled + label{color:#aaa}.neoradio label:hover:before{border:0.15em solid #888!important}
 #Inicio {position:relative;width:100%;height:100%;overflow:auto;;background-color:#F5F5DC}
-#header {position:absolute;left:0px;width:100%;top:0px;height:73px;margin:0;text-align:left;background-color:#383838;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #botones {position:absolute;left:0px;width:100%;top:72px;height:62px;margin:0;background-color:#383838;padding-bottom:15px;overflow-x:hidden;overflow-y:hidden}
 #btn2 {position:relative;float:right;width:7.8125%;height:100%;margin:5px 10px 0 10px;text-align:center;cursor:pointer}
 #btn3 {position:relative;float:right;width:7.8125%;height:100%;margin:5px 10px 0 10px;text-align:center;cursor:pointer}
-#Ficha {position:absolute;left:11.5885416666667%;width:79.9479166666667%;top:274px;height:1036px;margin:0;border-width:1px;overflow-y:scroll;overflow-x:hidden}
+#Ficha {position:absolute;left:14.9739583333333%;width:70.0520833333333%;top:274px;height:1036px;margin:0;border-width:1px;overflow-y:scroll;overflow-x:hidden}
 #buscador {position:absolute;left:0px;width:100%;top:173px;height:82px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
-#btnIMP {position:absolute;left:40.7552083333333%;width:18.4895833333333%;top:1328px;height:55px;margin:0;}
+#btnIMP {position:absolute;left:25%;width:50%;top:1328px;height:55px;margin:0;}
 #MensajeEspera {position:absolute;left:0px;width:100%;top:151px;height:23px;margin:0;text-align:center}
-#PushButton1 {position:absolute;left:39.9739583333333%;width:20.0520833333333%;top:1400px;height:55px;margin:0;}
+#btnREG {position:absolute;left:25%;width:50%;top:1407px;height:55px;margin:0;}
+#header {position:absolute;left:0px;width:100%;top:0px;height:73px;margin:0;text-align:left;background-color:#383838;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #Info {position:relative;width:100%;height:100%;overflow:auto;;background-color:#F5F5DC}
 #header4 {position:absolute;left:0px;width:100%;top:0px;height:76px;margin:0;text-align:left;background-color:#383838;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #botones4 {position:absolute;left:0px;width:100%;top:72px;height:62px;margin:0;background-color:#383838;padding-bottom:15px;overflow-x:hidden;overflow-y:hidden}
@@ -19,7 +19,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #btn1d {position:relative;float:right;width:7.8125%;height:100%;margin:5px 10px 0 10px;text-align:center;cursor:pointer}
 #Container2 {position:absolute;left:2.21354166666667%;width:95.5729166666667%;top:197px;height:809px;margin:0;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #DialogContainer1 {margin-left:auto;margin-right:auto;width:100%;height:1500px;}
-.css-input {height: 35px;width: 200px;padding: 5px;font-size: 15px;border-width: 1px;border-color: #CCCCCC;background-color: #FFFFFF;color: #707070;border-style: solid;border-radius: 3px;box-shadow: 0px 0px 4px rgba(66,66,66,.75);text-shadow: -10px 0px 0px rgba(255,255,255,.75)}
+.css-input {height: 35px;width: 60%;padding: 5px;font-size: 15px;border-width: 1px;border-color: #CCCCCC;background-color: #FFFFFF;color: #707070;border-style: solid;border-radius: 3px;box-shadow: 0px 0px 4px rgba(66,66,66,.75);text-shadow: -10px 0px 0px rgba(255,255,255,.75)}
          .css-input:focus {outline:none;}
 #header {width: 100%;}
 #botones {width:100%;}
@@ -29,9 +29,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #botones3 {width:100%;}
 #header4 {width: 100%;}
 #botones4 {width:100%;}
-#Ficha {width: 80%;}
+#Ficha {width: 70%;}
 #FichaAv {width: 80%;}
-#btnIMP {width:142px;}
+#btnIMP {width:50%;}
+#btnREG {width:50%;}
 #buscador {width:100%;}
 #MensajeEspera {width:100%;}
 #btnCerrarContacto {width:100%;}

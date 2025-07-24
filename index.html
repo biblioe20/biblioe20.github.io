@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Biblioteca E20" />
 <meta name="generator" content="VisualNEO Web (19.9.16)" />
-<meta name="date" content="2025-07-22 23:50" />
+<meta name="date" content="2025-07-23 22:01" />
 <meta name="copyright" content="Copyright 2025 IoSoft Producciones" />
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -23,8 +23,6 @@
 <div ng-controller="NeoApp_CoreCtrl" ng-view ng-cloak id="ng-view" class="app-viewport[NAB._pageEffect]"></div>
 <script type="text/ng-template" id="Inicio">
 <div id="Inicio">
-<div id="header" class="[NAB.header_effect]" ng-style="NAB.header_style" ng-hide="NAB.header_hidden" ng-disabled="NAB.header_disabled">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/logo.png" height="80">&nbsp;&nbsp;&nbsp;&nbsp;<font color="grey" size="5">Biblioteca</font>&nbsp;&nbsp;&nbsp;<font color="#FCF3CF" size="5"><i>Catálogo</i></font>
-</div>
 <div id="botones" class="[NAB.botones_effect]" ng-style="NAB.botones_style" ng-hide="NAB.botones_hidden" ng-disabled="NAB.botones_disabled">
 <button id="btn2" type="button"  class="btn btn-default [NAB.btn2_effect]" ng-style="NAB.btn2_style" ng-hide="NAB.btn2_hidden" ng-disabled="NAB.btn2_disabled" ng-click="btn2_click()"><span class="glyphicon glyphicon-question-sign"></span><br/></button>
 <button id="btn3" type="button"  class="btn btn-success [NAB.btn3_effect]" ng-style="NAB.btn3_style" ng-hide="NAB.btn3_hidden" ng-disabled="NAB.btn3_disabled" ng-click="btn3_click()"><span class="glyphicon glyphicon-envelope"></span><br/></button>
@@ -38,7 +36,7 @@
 <font size="4">
 &nbsp;&nbsp;&nbsp;&nbsp;[object.Autor]</font><br>
 <font size="3">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[object.Editor] ([object.fecha])<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[object.Editor] ([object.Fecha])<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[object.Notas]<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p align="center" style="color:#a93226"><b>Materias:</b><br>
 [object.Materia1]<br>
@@ -47,12 +45,14 @@
 </div></div><br>
 </span>
 </div>
-<div id="buscador" class="[NAB.buscador_effect]" ng-style="NAB.buscador_style" ng-hide="NAB.buscador_hidden" ng-disabled="NAB.buscador_disabled"><div align="center"><br><input class="css-input" placeholder="Buscar..." type="text" ng-model="searchText">
+<div id="buscador" class="[NAB.buscador_effect]" ng-style="NAB.buscador_style" ng-hide="NAB.buscador_hidden" ng-disabled="NAB.buscador_disabled"><div align="center"><br><input class="css-input" placeholder="Buscar en el catálogo..." type="text" ng-model="searchText">
 <br></div>
 </div>
-<button id="btnIMP" type="button"  class="btn btn-success [NAB.btnIMP_effect]" ng-style="NAB.btnIMP_style" ng-hide="NAB.btnIMP_hidden" ng-disabled="NAB.btnIMP_disabled" ng-click="btnIMP_click()"><span class="glyphicon glyphicon-print"></span> &nbsp; Imprimir</button>
+<button id="btnIMP" type="button"  class="btn btn-success [NAB.btnIMP_effect]" ng-style="NAB.btnIMP_style" ng-hide="NAB.btnIMP_hidden" ng-disabled="NAB.btnIMP_disabled" ng-click="btnIMP_click()"><span class="glyphicon glyphicon-print"></span> &nbsp; IMPRIMIR</button>
 <div id="MensajeEspera" class="[NAB.MensajeEspera_effect]" ng-style="NAB.MensajeEspera_style" ng-hide="NAB.MensajeEspera_hidden" ng-disabled="NAB.MensajeEspera_disabled">Aguarde unos segundos&nbsp;la carga de datos...</div>
-<button id="PushButton1" type="button"  class="btn btn-primary [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-plus-sign"></span> &nbsp;REGISTRAR</button>
+<button id="btnREG" type="button"  class="btn btn-primary [NAB.btnREG_effect]" ng-style="NAB.btnREG_style" ng-hide="NAB.btnREG_hidden" ng-disabled="NAB.btnREG_disabled" ng-click="btnREG_click()"><span class="glyphicon glyphicon-plus-sign"></span> &nbsp;REGISTRAR</button>
+<div id="header" class="[NAB.header_effect]" ng-style="NAB.header_style" ng-hide="NAB.header_hidden" ng-disabled="NAB.header_disabled">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/logo.png" height="65">&nbsp;&nbsp;&nbsp;&nbsp;<font color="grey" size="5">Biblioteca E20</font>&nbsp;&nbsp;&nbsp;<font color="#FCF3CF" size="5"><i>Catálogo</i></font>
+</div>
 </div>
 </script>
 <script type="text/ng-template" id="Info">
